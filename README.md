@@ -38,18 +38,20 @@ Cleanup....
 ```
 
 ```
-Build....
-Start Server....
 Initial Mem Usage
 ==========================================
-fastapi-py311-gunicorn: 44.86MiB / 15.6GiB
+fastapi-py311-gunicorn: 595.2MiB / 15.6GiB
+fastapi-py311-gunicorn-max-requests: 616.5MiB / 15.6GiB
 ==========================================
-Run 1000 Requests....
+Run 5000 Requests....
 Run fastapi-py311-gunicorn
-real: 1m6.209s; user 0m57.511s; system 0m5.376s
+real: 1m8.272s; user 0m59.336s; system 0m6.126s
+Run fastapi-py311-gunicorn-max-requests
+real: 1m9.008s; user 1m0.062s; system 0m6.047s
 After 1000 Requests Mem Usage
 ==========================================
-fastapi-py311-gunicorn: 592.7MiB / 15.6GiB
+fastapi-py311-gunicorn: 595.7MiB / 15.6GiB
+fastapi-py311-gunicorn-max-requests: 616.8MiB / 15.6GiB
 ==========================================
 Cleanup....
 ```
